@@ -14,6 +14,10 @@ public class Airplane {
         this.airplaneType = airplaneType;
     }
 
+    public String getAirplaneType() {
+        return this.airplaneType;
+    }
+
     public int getCurrentPassengerCount() {
         return currentPassengerCount;
     }
